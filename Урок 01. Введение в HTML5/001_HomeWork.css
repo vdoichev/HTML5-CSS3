@@ -1,0 +1,48 @@
+body 
+{
+    background-color:#272525;
+    font-family: Arial, Sans-Serif;
+    margin:10px 10px;
+    text-align:center;  
+    height: 93vh;
+}
+
+header {
+    display: block;
+    background-color: rgb(100, 92, 92);
+    height:10%;
+    border-radius:10px;
+}
+
+div {
+    display: block;
+    height: 80%;
+}
+
+footer {
+    display: block;
+    background-color: rgb(100, 92, 92);
+    height:10%;
+    border-radius:10px;
+}
+
+nav {
+    background-color: rgb(100, 92, 92);
+    width: 25%;
+    float:left; 
+    border-radius:10px;
+}
+
+section {
+    background-color: rgb(100, 92, 92);
+    width: 50%;
+    float:left; 
+    border-radius:10px;
+}
+
+aside {
+    background-color: rgb(100, 92, 92);
+    width: 25%;
+    float:left; 
+    border-radius:10px;
+}
