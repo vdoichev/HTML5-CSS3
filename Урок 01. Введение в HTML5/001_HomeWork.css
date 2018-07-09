@@ -29,20 +29,48 @@ footer {
 nav {
     background-color: rgb(100, 92, 92);
     width: 25%;
-    float:left; 
-    border-radius:10px;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+    margin: 10px 0px;
 }
 
 section {
     background-color: rgb(100, 92, 92);
-    width: 50%;
-    float:left; 
-    border-radius:10px;
+    width: 47%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 10px;
 }
 
 aside {
     background-color: rgb(100, 92, 92);
     width: 25%;
-    float:left; 
-    border-radius:10px;
+    height: 100%;
+    float: right;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+section header {
+    background-color: rgb(167, 155, 155);
+    height: 10%;
+    display: block;
+    margin: 0px 10px;
+}
+
+section article {
+    background-color: rgb(167, 155, 155);
+    height: 62%;
+    display: block;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+
+section footer {
+    background-color: rgb(167, 155, 155);
+    height: 10%;
+    display: block;
+    margin: 0px 10px;
 }
