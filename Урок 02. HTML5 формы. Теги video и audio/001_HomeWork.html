@@ -3,8 +3,79 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <style>
+        p {
+            display: block;
+            float: left;
+            width: 100%;
+        }
+        label {
+            display: block;
+            float: left;
+            width: 200px;
+        }
+
+        input {
+            display: block;
+            float: left;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
-
+    <form>
+        <p>
+            <label>
+                Slider
+                
+            </label>
+            <input type="range" 
+                    name="volume" 
+                    min="2" 
+                    max="10" 
+                    step="1" 
+                    value="5" />
+        </p>
+        <p>
+            <label>
+                Numeric spinner                
+            </label>
+            <input type="number" name="quantity" min="0" value="0" />
+        </p>
+        <p>
+            <label>
+                Date picker
+            </label>
+            <input type="datetime" name="datetime" value="2010-10-06" />
+        </p>
+        <p>
+            <label>
+                Color picker
+            </label>
+            <input type="color" name="color" value="ff0000" />
+        </p>
+        <p>
+            <label>
+                Text field with placeholder
+            </label>
+            <input type="text" name="placeholder" placeholder="Insert your text here" />
+        </p>
+        <p>
+            <label>
+                Url field
+            </label>
+            <input type="url" name="url" placeholder="http://net.tutsplus.com/" />
+        </p>
+        <p>
+            <label>
+                Email field
+            </label>
+            <input type="email" name="email" placeholder="contact@ghinda.net" />
+        </p>
+        <p> 
+            <label hidden="hidden">.</label>
+            <input type="submit" value="Submit form" />
+        </p>
+    </form>
 </body>
 </html>
